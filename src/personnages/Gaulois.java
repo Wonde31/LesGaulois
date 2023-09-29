@@ -33,7 +33,7 @@ public class Gaulois {
 //	}
 
 	public static void main(String[] args) {
-		new Gaulois(nom=astérix, force=8);
+		Gaulois asterix = new Gaulois(nom="asterix", force=8);
 		System.out.println(asterix); 
 }
 }
