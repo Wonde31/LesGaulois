@@ -29,4 +29,9 @@ public class Romain {
 			parler("J'abandonne...");
 		}
 	}
+	
+	public static void main(String[] args) {
+		Romain minus = new Romain("minus", 6);
+		System.out.println(minus); 
+	}
 }

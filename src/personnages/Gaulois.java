@@ -27,10 +27,10 @@ public class Gaulois {
 		romain.recevoirCoup(force / 3);
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
+	}
 
 	public static void main(String[] args) {
 		Gaulois asterix = new Gaulois("asterix", 8);
